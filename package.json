@@ -1,0 +1,51 @@
+{
+  "name": "react-boss-admin",
+  "version": "0.0.1-alpha.0",
+  "description": "A free, open source, and lightweight admin navigation created by bossku.",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngpeijiun/boss-admin.git"
+  },
+  "author": "bossku",
+  "license": "BSL-1.0",
+  "bugs": {
+    "url": "https://github.com/ngpeijiun/boss-admin/issues"
+  },
+  "homepage": "https://github.com/ngpeijiun/boss-admin#readme",
+  "engine": {
+    "node": ">=10",
+    "npm": ">=5.6"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^2.23.0",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "typescript": "^3.9.7"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "boss",
+    "bossku",
+    "admin",
+    "navigation",
+    "navigator",
+    "theme",
+    "template"
+  ]
+}
